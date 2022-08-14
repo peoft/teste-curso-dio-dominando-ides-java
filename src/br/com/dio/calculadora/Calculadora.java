@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Calculadora {
 
 	public static void main(String[] args) {
-		int a, b;
+		int a, b, i = 3;
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Digite o primeiro valor: ");
@@ -22,7 +22,10 @@ public class Calculadora {
 		System.out.println("Subtracao=" + subtracao);
 		System.out.println("Divisao=" + divisao);
 		System.out.println("Multiplicacao=" + multiplicacao);
-		
+
+		int result = 10 - 5 * 2 + --i;
+
+		System.out.println("Result=" + result);		
 		
 	}
 	
